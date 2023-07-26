@@ -67,7 +67,7 @@
         display: none;
     }
 
-    @media only screen and (max-width: 300px) {
+     @media(max-width:400px){
         * {
         margin: 0;
         padding: 0;
@@ -88,44 +88,46 @@
 
     #main {
         /* border: 2px solid red; */
-        width: 55vw;
-        height: 500px;
+        width: 85vw;
+        height: 55vh;
         position: absolute;
         top: 80px;
-        left: 275px;
+        left: 30px;
         color: white;
+        overflow: visible;
         opacity: 0.6;
+        
         /* text-align: center; */
     }
 
 
     #main>h1 {
         font-family: monospace;
-        font-size: 2.3rem;
+        font-size: 1.15em;
+        margin: 22px 0px;
     }
 
     #main>span {
-        font-size: 240px;
+        font-size: 6.3rem;
         opacity: 0.8;
     }
 
     #main>button {
-        margin-top: 50px;
-        width: 13vw;
+        margin-top: 55px;
+        width: 23vw;
         height: 5vh;
         position: relative;
-        left: 255px;
+        left: 105px;
+        
     }
     
     #main>button>a {
         font-family: monospace;
-        font-size: 1.1rem;
+        font-size: 1rem;
         text-decoration: none;
         color: black;
     }
-
-
-}
+    }
 </style>
 
 <body>
